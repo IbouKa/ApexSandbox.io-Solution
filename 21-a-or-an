@@ -1,0 +1,3 @@
+public String aOrAn(String word) {
+    return word[0] in ('a', 'e', 'i', 'o','u') ?'an'+word:'a '+word;
+}
