@@ -1,4 +1,4 @@
 public String aOrAn(String word) {
     Set<String> voyelles=new Set<String> {'a', 'e', 'i', 'o','u'};
-    return voyelles.contains(word[0]) ?'an'+word:'a '+word;
+    return voyelles.contains(word[0]) ?'an '+word:'a '+word;
 }
